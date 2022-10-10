@@ -13,7 +13,9 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      - mystyles.scss
+    mainfont: Homemade Apple
     css: styles.css
     toc: true
 
