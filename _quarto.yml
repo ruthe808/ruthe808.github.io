@@ -10,6 +10,8 @@ website:
         text: Home
       - about.qmd
       - resume.qmd
+      - href: posts.qmd
+        text: my posts
 
 format:
   html:

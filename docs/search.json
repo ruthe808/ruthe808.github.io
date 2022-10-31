@@ -19,5 +19,26 @@
     "title": "Ruth Enriquez",
     "section": "",
     "text": "This is my website"
+  },
+  {
+    "objectID": "post.html",
+    "href": "post.html",
+    "title": "posts",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "posts/2022-10-24-blog-example/index.html",
+    "href": "posts/2022-10-24-blog-example/index.html",
+    "title": "ruthe808.github.io",
+    "section": "",
+    "text": "title: “blog post title” description: “this is a description” author: - name: Ruth Enriquez url: https://ruthe808.github.io affiliation: MEDS affiliation-url: https://ucsb-med.github.io date: 2022-10-24 categories: [MEDS, test, R] citation: url: http://localhost:4999/posts/2022-10-24-blog-example/ —\nHi this is my class example blog post"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "posts",
+    "section": "",
+    "text": "No matching items"
   }
 ]
