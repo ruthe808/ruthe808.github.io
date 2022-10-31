@@ -10,10 +10,14 @@ website:
         text: Home
       - about.qmd
       - resume.qmd
+      - href: posts.qmd
+        text: my posts
 
 format:
   html:
-    theme: cosmo
+    theme:
+      - mystyles.scss
+    mainfont: Homemade Apple
     css: styles.css
     toc: true
 

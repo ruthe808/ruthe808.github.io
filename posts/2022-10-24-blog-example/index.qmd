@@ -1,0 +1,18 @@
+---
+title: "blog post title"
+description:  "this is a description"
+author:
+  - name: Ruth Enriquez
+    url: https://ruthe808.github.io
+    affiliation: MEDS
+    affiliation-url: https://ucsb-med.github.io
+date: 2022-10-24
+categories: [MEDS, test, R]
+citation:
+  url: http://localhost:4999/posts/2022-10-24-blog-example/\
+
+---
+
+Hi this is my class example blog post
+to add image, type image: and save image in the fold of this post
+To save a draft: true, it will upload to git but won't show on her actual website

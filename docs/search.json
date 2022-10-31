@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "bio",
     "section": "",
-    "text": "1 + 1\n\n[1] 2"
+    "text": "This is a red h1 element\n\n\nthis is my paragraph\n\n\nthis is my red paragraph\n\n\nhelppppp me with class\n\n\nhelp me without class\n\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "hello.html",
@@ -19,5 +19,26 @@
     "title": "Ruth Enriquez",
     "section": "",
     "text": "This is my website"
+  },
+  {
+    "objectID": "post.html",
+    "href": "post.html",
+    "title": "posts",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "posts/2022-10-24-blog-example/index.html",
+    "href": "posts/2022-10-24-blog-example/index.html",
+    "title": "ruthe808.github.io",
+    "section": "",
+    "text": "title: “blog post title” description: “this is a description” author: - name: Ruth Enriquez url: https://ruthe808.github.io affiliation: MEDS affiliation-url: https://ucsb-med.github.io date: 2022-10-24 categories: [MEDS, test, R] citation: url: http://localhost:4999/posts/2022-10-24-blog-example/ —\nHi this is my class example blog post"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "posts",
+    "section": "",
+    "text": "No matching items"
   }
 ]

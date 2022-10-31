@@ -1,6 +1,15 @@
 ---
 title: "Ruth Enriquez"
-
+image: headshot.jpg
+about: 
+  template: trestles
+  image-shape: rectangle
+  image-width: 15em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/ruthe808/
+    - text: GitHub
+      href: https://github.com/ruthe808
+    - text: Email
+      href: mailto:rbe786@ucsb.edu
 ---
-
-This is my website
