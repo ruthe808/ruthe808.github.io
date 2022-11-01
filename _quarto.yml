@@ -7,7 +7,7 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: home
       - about.qmd
       - resume.qmd
       - href: posts.qmd
@@ -18,7 +18,7 @@ format:
     theme:
       - mystyles.scss
     mainfont: Lato
-    css: styles.css
+    css: mystyles.scss
     toc: true
 
 editor: visual

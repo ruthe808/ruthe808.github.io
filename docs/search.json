@@ -30,15 +30,15 @@
   {
     "objectID": "posts/2022-10-24-blog-example/index.html",
     "href": "posts/2022-10-24-blog-example/index.html",
-    "title": "ruthe808.github.io",
+    "title": "blog post title",
     "section": "",
-    "text": "title: “blog post title” description: “this is a description” author: - name: Ruth Enriquez url: https://ruthe808.github.io affiliation: MEDS affiliation-url: https://ucsb-med.github.io date: 2022-10-24 categories: [MEDS, test, R] citation: url: http://localhost:4999/posts/2022-10-24-blog-example/ —\nHi this is my class example blog post"
+    "text": "CitationBibTeX citation:@online{enriquez2022,\n  author = {Ruth Enriquez},\n  title = {Blog Post Title},\n  date = {2022-10-24},\n  url = {http://localhost:4999/posts/2022-10-24-blog-example/\\},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nRuth Enriquez. 2022. “Blog Post Title.” October 24, 2022.\nhttp://localhost:4999/posts/2022-10-24-blog-example/\\."
   },
   {
     "objectID": "posts.html",
     "href": "posts.html",
     "title": "posts",
     "section": "",
-    "text": "No matching items"
+    "text": "MEDS\n\n\ntest\n\n\nR\n\n\n\nthis is a description\n\n\n\nRuth Enriquez\n\n\nOct 24, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

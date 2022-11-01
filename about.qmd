@@ -1,5 +1,5 @@
 ---
-title: "bio"
+title: "about"
 ---
 
 <h1>This is my h1 element</h1>
@@ -20,12 +20,8 @@ this is my red paragraph
 
 <h3 class="custom-subtitle">
 
-helppppp me with class
+this is a custom subtitle
 
 </h3>
 
-<h3>help me without class</h3>
-
-```{r}
-1 + 1
-```
+<h3>testing h3</h3>
