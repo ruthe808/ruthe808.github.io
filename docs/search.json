@@ -2,14 +2,14 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "bio",
+    "title": "about",
     "section": "",
-    "text": "This is a red h1 element\n\n\nthis is my paragraph\n\n\nthis is my red paragraph\n\n\nhelppppp me with class\n\n\nhelp me without class\n\n\n1 + 1\n\n[1] 2"
+    "text": "This is a red h1 element\n\n\nthis is my paragraph\n\n\nthis is my red paragraph\n\n\nthis is a custom subtitle\n\n\ntesting h3"
   },
   {
     "objectID": "hello.html",
     "href": "hello.html",
-    "title": "Resume",
+    "title": "resume",
     "section": "",
     "text": "-under construction-"
   },

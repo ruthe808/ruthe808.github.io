@@ -9,12 +9,28 @@
 $teal:#4bc6d1;
 $purple:#60228a;
 $dark-blue:#303e80;
+$dusk-dBlue:#263B55;
+$dusk-blue:#4A6988;
+$dusk-lBlue:#60829B;
+$dusk-bBlue:#8BA5B6;
+$dusk-dOrange:#C16E3F;
+$dusk-orange:#FF8D31;
+$dusk-lOrange:#FBB563;
+$dusk-lBrown:#978978;
+$dusk-brown:#C98F62;
+$dusk-black:#0A0A0A;
+$dusk-gray: #A9ACA5;
+$dusk-dgray: #4D4F4E;
+$dusk-deepBlue: #162636;
+
+
+
 
 $my-font-size: 25px;
 
 // Base Document Colors
-$navbar-bg: $teal;
-$body-bg: $dark-blue;
+$navbar-bg: $dusk-dBlue;
+$body-bg: $dusk-lBlue;
 
 /*-- scss:rules --*/
 h1, h3 {
@@ -31,4 +47,14 @@ h1, h3 {
   font-size: 22px;
   font-style: italic;
   color: $purple;
+}
+
+.button-styling {
+  background: $dusk-lBlue;
+  border-color: $dusk-blue;
+  color: $dusk-deepBlue;
+}
+
+.button-styling:hover {
+  background-color: $dusk-orange; 
 }
