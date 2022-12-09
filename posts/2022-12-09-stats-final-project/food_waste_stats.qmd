@@ -302,9 +302,9 @@ Running the t.test on the high food waste estimates I observed that there was a 
 
 Overall, after my analyses I do not think I can confidently answer my question. The first reason why I cannot answer my question is the data itself. The data is based off estimates ran from an algorithm that had no transparency to how they were calculated. Second, the two estimates tell different stories and there isn't enough information for me to know if the difference in story is due to how each estimate was calculated. The third reason I cannot answer my question is the p-values for the low estimate were not good. If I were to do this over again, I would hope that there would be actual food waste data and not estimates. I think having actual food waste data would help significantly. I think also having data for more than a year would also be helpful. Having more data would show more trends. It would also give me an opportunity to do a time series analysis.
 
-##References
+## References
 
--   \"From Farm to Kitchen: The Environmental Impacts of U.S. Food Waste.\" *EPA*, Environmental Protection Agency, https://www.epa.gov/land-research/farm-kitchen-environmental-impacts-us-food-waste.
+-   "From Farm to Kitchen: The Environmental Impacts of U.S. Food Waste." *EPA*, Environmental Protection Agency, https://www.epa.gov/land-research/farm-kitchen-environmental-impacts-us-food-waste.
 
 -   Environmental Protection Agency. (n.d.). *Technical Methodology for the Excess Food Opportunities Map*. EPA. Retrieved December 9, 2022, from https://www.epa.gov/sustainable-management-food/technical-methodology-excess-food-opportunities-map
 
