@@ -5,14 +5,16 @@ project:
 website:
   title: "Ruth Enriquez"
   navbar:
-    right:
+      right:
       - href: index.qmd
         text: home
       - about.qmd
       - resume.qmd
       - href: posts.qmd
         text: my posts
-
+  page-footer: 
+      left:
+      - "copywrite 2022, Ruth Eniquez"
 format:
   html:
     theme:
