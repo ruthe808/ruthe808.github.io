@@ -4,7 +4,7 @@ description: "Researching if there is a relationship between the amount of food 
 author: 
   - name: Ruth Enriquez
     url: {}
-date: 2022-12-5
+date: 2022-12-9
 categories: [MEDS, R, Statistics, Food Waste, California]
 image: food_waste.JPG
 draft: false
