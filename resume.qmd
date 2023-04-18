@@ -13,13 +13,13 @@ editor: visual
 
 **Bachelor of Business Administration -- Double Major in Management Information System and Finance** (5/17)
 
-**University of Hawai\'i at Mānoa, Honolulu, Hawai\'i (1/14--5/17)**
+**University of Hawai'i at Mānoa, Honolulu, Hawai'i (1/14--5/17)**
 
 [Leadership/Involvement:]{.underline} Director of Career Development -- Business Executive Society of Tomorrow (9/17--5/17); President --Information Technology Management Association (8/15--5/17)
 
 [Employment:]{.underline} Student Assistant -- Shidler Office of Undergraduate Internships and Career Development (8/16--5/17)
 
-**University of Hawai\'i at West Oahu, Kapolei, Hawai\'i (7/13--5/14)**
+**University of Hawai'i at West Oahu, Kapolei, Hawai'i (7/13--5/14)**
 
 [Leadership:]{.underline} Founder and Treasurer -- Ecology Club (8/13--5/14); Founder -- Sustainability Hui (8/13--5/14)
 
@@ -27,7 +27,7 @@ editor: visual
 
 **Evaluating Steel Plant Emissions in the United States** (1/23--Present)
 
-[Role:]{.underline} Project Manager \| [Client:]{.underline} Global Energy Monitor\| Master\'s Emissions Capstone Project
+[Role:]{.underline} Project Manager \| [Client:]{.underline} Global Energy Monitor\| Master's Emissions Capstone Project
 
 -   Researching and combining 5 different datasets to calculate Scope 2 emissions for Steel Plants in the US
 
@@ -35,7 +35,7 @@ editor: visual
 
 **FINANCIAL MANAGEMENT EXPERIENCE**
 
-**Bank of Hawai\'i, Honolulu, HI**
+**Bank of Hawai'i, Honolulu, HI**
 
 **IT Service Management Process Manager II, Financial Management** (5/20--7/22)
 
