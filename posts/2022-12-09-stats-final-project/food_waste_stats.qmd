@@ -6,7 +6,7 @@ author:
     url: {}
 date: 2022-12-9
 categories: [MEDS, R, Statistics, Food Waste, California]
-image: food_waste.JPG
+image: food_waste.jpg
 draft: false
 format:
   html:
