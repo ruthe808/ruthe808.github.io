@@ -1,7 +1,7 @@
 ---
 title: "Ruth Enriquez"
 image: headshot.jpg
-about: 
+about:
   template: trestles
   image-shape: rectangle
   image-width: 15em
@@ -13,3 +13,7 @@ about:
     - text: Email
       href: mailto:rbe786@ucsb.edu
 ---
+
+Aloha!
+
+My name is Ruth Enriquez! I love meeting new people and getting to know what you're passion about. Let's connect :)

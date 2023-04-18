@@ -2,3 +2,75 @@
 title: "resume"
 editor: visual
 ---
+
+**EDUCATION**
+
+**Master of Environmental Data Science** (Expected 6/23)
+
+**Bren School of Environmental Science & Management -- University of California, Santa Barbara (UCSB)**
+
+[Employment:]{.underline} Student Assistant -- Career Development & Alumni Relations (10/22--Present)
+
+**Bachelor of Business Administration -- Double Major in Management Information System and Finance** (5/17)
+
+**University of Hawai\'i at Mānoa, Honolulu, Hawai\'i (1/14--5/17)**
+
+[Leadership/Involvement:]{.underline} Director of Career Development -- Business Executive Society of Tomorrow (9/17--5/17); President --Information Technology Management Association (8/15--5/17)
+
+[Employment:]{.underline} Student Assistant -- Shidler Office of Undergraduate Internships and Career Development (8/16--5/17)
+
+**University of Hawai\'i at West Oahu, Kapolei, Hawai\'i (7/13--5/14)**
+
+[Leadership:]{.underline} Founder and Treasurer -- Ecology Club (8/13--5/14); Founder -- Sustainability Hui (8/13--5/14)
+
+**DATA SCIENCE AND ENVIRONMENTAL PROJECTS**
+
+**Evaluating Steel Plant Emissions in the United States** (1/23--Present)
+
+[Role:]{.underline} Project Manager \| [Client:]{.underline} Global Energy Monitor\| Master\'s Emissions Capstone Project
+
+-   Researching and combining 5 different datasets to calculate Scope 2 emissions for Steel Plants in the US
+
+-   Creating a Tableau dashboard and map showing Scope 1 and 2 emissions of Steel Plants in the US
+
+**FINANCIAL MANAGEMENT EXPERIENCE**
+
+**Bank of Hawai\'i, Honolulu, HI**
+
+**IT Service Management Process Manager II, Financial Management** (5/20--7/22)
+
+-   Led project to develop web app allocating \$38MM providing cost transparency to management
+
+-   Presented financial industry standard comparison to executive management, IT projects given approval
+
+**Pathway to Professional Excellence** (7/18--12/18)
+
+-   Nominated by my managers to participate in a 6-month leadership development program
+
+-   Studied leadership strategies and crucial conversations, applied new skills in collaboration meetings
+
+**IT Service Management Process Manager I, Financial Management** (7/17--4/20)
+
+-   Collaborated with managers on monthly budgeting identifying cost saving opportunities
+
+-   Reorganized 3 IT cost centers to 27 cost centers creating better alignment to company initiatives
+
+**Intern for IT Projects and Finance** (6/16--8/16)
+
+-   Attended corporate wide projects meetings learning about project management practices
+
+-   Collaborated with departmental stakeholders to reevaluate project deliverables for cost savings
+
+**Student Assistant for IT Projects, Finance, and End Point Systems**(11/15--5/16, 9/16--5/17)
+
+-   Cross referenced bank spending to assist in better forecasting spending for the upcoming month
+
+-   Updated SharePoint sites for several departments increasing workflow and reporting efficiency
+
+**SKILLS AND CERTIFICATIONS**
+
+**Programming languages:** Python, R, HTML, PHP, CSS, and JavaScript
+
+**Software:** SQL, RStudio, Quarto, GitHub, ArcGIS, Tableau, BMC, Photoshop, Dreamweaver, Microsoft Office Suite
+
+**Certifications:** Information Technology Infrastructure Library -- IT Service Management (ITIL) (12/17)

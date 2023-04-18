@@ -2,26 +2,10 @@
 title: "about"
 ---
 
-<h1>This is my h1 element</h1>
+I am currently pursing a master's in Environmental Data Science at the Bren School of Environmental Science and Management at the University of California, Santa Barbara.
 
-<h1 class="title">
+I was born and raised in Hawai'i where I attended the University of Hawai'i at Mānoa. For my undergraduate degree I studied Management Information Systems and Finance at the Shilder College of Business. I had the pleasure of working in my field of study at Bank of Hawai'i.
 
-This is a red h1 element
+I started as a student assistant in the Information Technology (IT) department where I was tasked to do data entry. As I progressed through my career I also participated in Bank of Hawai'i's internship program and Pathway to Professional Excellence management training program.
 
-</h1>
-
-<p>this is my paragraph</p>
-
-<p class="title">
-
-this is my red paragraph
-
-</p>
-
-<h3 class="custom-subtitle">
-
-this is a custom subtitle
-
-</h3>
-
-<h3>testing h3</h3>
+After 6 years of working in IT Finance I gained a passion for telling a story through data and data visualization. I wanted to pivot my career to pursue my passions in sustainability. I am interested in working on food waste, corporate sustainability, and Scope 1 & 2 Emissions.
