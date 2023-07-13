@@ -4,7 +4,9 @@ project:
 
 website:
   title: "Ruth Enriquez"
+  favicon: img/logo.png
   navbar:
+      logo: img/logo.png
       right:
       - href: index.qmd
         text: home

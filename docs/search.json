@@ -7,39 +7,11 @@
     "text": "I am currently pursing a master’s in Environmental Data Science at the Bren School of Environmental Science and Management at the University of California, Santa Barbara.\nI was born and raised in Hawai’i where I attended the University of Hawai’i at Mānoa. For my undergraduate degree I studied Management Information Systems and Finance at the Shilder College of Business. I had the pleasure of working in my field of study at Bank of Hawai’i.\nI started as a student assistant in the Information Technology (IT) department where I was tasked to do data entry. As I progressed through my career I also participated in Bank of Hawai’i’s internship program and Pathway to Professional Excellence management training program.\nAfter 6 years of working in IT Finance I gained a passion for telling a story through data and data visualization. I wanted to pivot my career to pursue my passions in sustainability. I am interested in working on food waste, corporate sustainability, and Scope 1 & 2 Emissions."
   },
   {
-    "objectID": "hello.html",
-    "href": "hello.html",
-    "title": "resume",
-    "section": "",
-    "text": "-under construction-"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Ruth Enriquez",
     "section": "",
     "text": "Aloha!\nMy name is Ruth Enriquez! I love meeting new people and getting to know what you’re passion about. Let’s connect :)"
-  },
-  {
-    "objectID": "post.html",
-    "href": "post.html",
-    "title": "posts",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "posts/2022-10-24-blog-example/index.html",
-    "href": "posts/2022-10-24-blog-example/index.html",
-    "title": "blog post title",
-    "section": "",
-    "text": "Hi this is my class example blog post to add image, type image: and save image in the fold of this post To save a draft: true, it will upload to git but won’t show on her actual website\n\n\n\nCitationBibTeX citation:@online{enriquez2022,\n  author = {Ruth Enriquez},\n  title = {Blog Post Title},\n  date = {2022-10-24},\n  url = {http://localhost:4999/posts/2022-10-24-blog-example/\\},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nRuth Enriquez. 2022. “Blog Post Title.” October 24, 2022.\nhttp://localhost:4999/posts/2022-10-24-blog-example/\\."
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "posts",
-    "section": "",
-    "text": "Food Waste Analysis\n\n\n\nMEDS\n\n\nR\n\n\nStatistics\n\n\nFood Waste\n\n\nCalifornia\n\n\n\nResearching if there is a relationship between the amount of food waste produced and household income\n\n\n\nRuth Enriquez\n\n\nDec 9, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2022-12-09-stats-final-project/food_waste_stats.html",
@@ -98,10 +70,17 @@
     "text": "References\n\n“From Farm to Kitchen: The Environmental Impacts of U.S. Food Waste.” EPA, Environmental Protection Agency, https://www.epa.gov/land-research/farm-kitchen-environmental-impacts-us-food-waste.\nEnvironmental Protection Agency. (n.d.). Technical Methodology for the Excess Food Opportunities Map. EPA. Retrieved December 9, 2022, from https://www.epa.gov/sustainable-management-food/technical-methodology-excess-food-opportunities-map\nEnvironmental Protection Agency. (n.d.). About the U.S. EPA Excess Food Opportunities Map. EPA. Retrieved December 9, 2022, from https://www.epa.gov/sustainable-management-food/excess-food-opportunities-map#whatis\nBureau, U. S. C. (n.d.). American Community Survey DP03SELECTED ECONOMIC CHARACTERISTICS. Explore census data. Retrieved December 9, 2022, from https://data.census.gov/table?q=DP03&t=Earnings%2B%28Individuals%29%3AIncome%2B%28Households%2C%2BFamilies%2C%2BIndividuals%29%3AIncome%2Band%2BEarnings&g=0100000US_0400000US06%240500000&y=2020&tid=ACSDP5Y2020.DP03&tp=false\nCalifornia, S. of. (n.d.). California Regions. CA Census. Retrieved December 9, 2022, from https://census.ca.gov/regions/"
   },
   {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "posts",
+    "section": "",
+    "text": "Food Waste Analysis\n\n\n\nMEDS\n\n\nR\n\n\nStatistics\n\n\nFood Waste\n\n\nCalifornia\n\n\n\nResearching if there is a relationship between the amount of food waste produced and household income\n\n\n\nRuth Enriquez\n\n\nDec 9, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "resume.html",
     "href": "resume.html",
     "title": "resume",
     "section": "",
-    "text": "EDUCATION\nMaster of Environmental Data Science (Expected 6/23)\nBren School of Environmental Science & Management – University of California, Santa Barbara (UCSB)\nEmployment: Student Assistant – Career Development & Alumni Relations (10/22–Present)\nBachelor of Business Administration – Double Major in Management Information System and Finance (5/17)\nUniversity of Hawai'i at Mānoa, Honolulu, Hawai'i (1/14–5/17)\nLeadership/Involvement: Director of Career Development – Business Executive Society of Tomorrow (9/17–5/17); President –Information Technology Management Association (8/15–5/17)\nEmployment: Student Assistant – Shidler Office of Undergraduate Internships and Career Development (8/16–5/17)\nUniversity of Hawai'i at West Oahu, Kapolei, Hawai'i (7/13–5/14)\nLeadership: Founder and Treasurer – Ecology Club (8/13–5/14); Founder – Sustainability Hui (8/13–5/14)\nDATA SCIENCE AND ENVIRONMENTAL PROJECTS\nEvaluating Steel Plant Emissions in the United States (1/23–Present)\nRole: Project Manager | Client: Global Energy Monitor| Master's Emissions Capstone Project\n\nResearching and combining 5 different datasets to calculate Scope 2 emissions for Steel Plants in the US\nCreating a Tableau dashboard and map showing Scope 1 and 2 emissions of Steel Plants in the US\n\nFINANCIAL MANAGEMENT EXPERIENCE\nBank of Hawai'i, Honolulu, HI\nIT Service Management Process Manager II, Financial Management (5/20–7/22)\n\nLed project to develop web app allocating $38MM providing cost transparency to management\nPresented financial industry standard comparison to executive management, IT projects given approval\n\nPathway to Professional Excellence (7/18–12/18)\n\nNominated by my managers to participate in a 6-month leadership development program\nStudied leadership strategies and crucial conversations, applied new skills in collaboration meetings\n\nIT Service Management Process Manager I, Financial Management (7/17–4/20)\n\nCollaborated with managers on monthly budgeting identifying cost saving opportunities\nReorganized 3 IT cost centers to 27 cost centers creating better alignment to company initiatives\n\nIntern for IT Projects and Finance (6/16–8/16)\n\nAttended corporate wide projects meetings learning about project management practices\nCollaborated with departmental stakeholders to reevaluate project deliverables for cost savings\n\nStudent Assistant for IT Projects, Finance, and End Point Systems(11/15–5/16, 9/16–5/17)\n\nCross referenced bank spending to assist in better forecasting spending for the upcoming month\nUpdated SharePoint sites for several departments increasing workflow and reporting efficiency\n\nSKILLS AND CERTIFICATIONS\nProgramming languages: Python, R, HTML, PHP, CSS, and JavaScript\nSoftware: SQL, RStudio, Quarto, GitHub, ArcGIS, Tableau, BMC, Photoshop, Dreamweaver, Microsoft Office Suite\nCertifications: Information Technology Infrastructure Library – IT Service Management (ITIL) (12/17)"
+    "text": "EDUCATION\nMaster of Environmental Data Science (Expected 6/23)\nBren School of Environmental Science & Management – University of California, Santa Barbara (UCSB)\nEmployment: Student Assistant – Career Development & Alumni Relations (10/22–Present)\nBachelor of Business Administration – Double Major in Management Information System and Finance (5/17)\nUniversity of Hawai’i at Mānoa, Honolulu, Hawai’i (1/14–5/17)\nLeadership/Involvement: Director of Career Development – Business Executive Society of Tomorrow (9/17–5/17); President –Information Technology Management Association (8/15–5/17)\nEmployment: Student Assistant – Shidler Office of Undergraduate Internships and Career Development (8/16–5/17)\nUniversity of Hawai’i at West Oahu, Kapolei, Hawai’i (7/13–5/14)\nLeadership: Founder and Treasurer – Ecology Club (8/13–5/14); Founder – Sustainability Hui (8/13–5/14)\nDATA SCIENCE AND ENVIRONMENTAL PROJECTS\nEvaluating Steel Plant Emissions in the United States (1/23–Present)\nRole: Project Manager | Client: Global Energy Monitor| Master’s Emissions Capstone Project\n\nResearching and combining 5 different datasets to calculate Scope 2 emissions for Steel Plants in the US\nCreating a Tableau dashboard and map showing Scope 1 and 2 emissions of Steel Plants in the US\n\nFINANCIAL MANAGEMENT EXPERIENCE\nBank of Hawai’i, Honolulu, HI\nIT Service Management Process Manager II, Financial Management (5/20–7/22)\n\nLed project to develop web app allocating $38MM providing cost transparency to management\nPresented financial industry standard comparison to executive management, IT projects given approval\n\nPathway to Professional Excellence (7/18–12/18)\n\nNominated by my managers to participate in a 6-month leadership development program\nStudied leadership strategies and crucial conversations, applied new skills in collaboration meetings\n\nIT Service Management Process Manager I, Financial Management (7/17–4/20)\n\nCollaborated with managers on monthly budgeting identifying cost saving opportunities\nReorganized 3 IT cost centers to 27 cost centers creating better alignment to company initiatives\n\nIntern for IT Projects and Finance (6/16–8/16)\n\nAttended corporate wide projects meetings learning about project management practices\nCollaborated with departmental stakeholders to reevaluate project deliverables for cost savings\n\nStudent Assistant for IT Projects, Finance, and End Point Systems(11/15–5/16, 9/16–5/17)\n\nCross referenced bank spending to assist in better forecasting spending for the upcoming month\nUpdated SharePoint sites for several departments increasing workflow and reporting efficiency\n\nSKILLS AND CERTIFICATIONS\nProgramming languages: Python, R, HTML, PHP, CSS, and JavaScript\nSoftware: SQL, RStudio, Quarto, GitHub, ArcGIS, Tableau, BMC, Photoshop, Dreamweaver, Microsoft Office Suite\nCertifications: Information Technology Infrastructure Library – IT Service Management (ITIL) (12/17)"
   }
 ]

@@ -8,11 +8,12 @@
 //colors
 $teal:#4bc6d1;
 $purple:#60228a;
-$dark-blue:#303e80;
-$dusk-dBlue:#263B55;
+$dark-blue:#03045E;
+$med-Blue:#0077B6;
 $dusk-blue:#4A6988;
-$dusk-lBlue:#bccad4;
+$light-Blue:#5FA8D3;
 $dusk-bBlue:#8BA5B6;
+
 $dusk-dOrange:#C16E3F;
 $dusk-orange:#FF8D31;
 $dusk-lOrange:#FBB563;
@@ -29,11 +30,12 @@ $dusk-deepBlue: #162636;
 $my-font-size: 25px;
 
 // Base Document Colors
-$navbar-bg: $dusk-dBlue;
-$body-bg: $dusk-lBlue;
+$navbar-bg: $med-Blue;
+$body-bg: $light-Blue;
+$body-color: $dark-blue;
 
 /*-- scss:rules --*/
-h1, h3 {
+h1, h2, h3, h4, h5, h6 {
   letter-spacing: 8px;
   font-weight: 700;
   color: $teal;
@@ -50,7 +52,7 @@ h1, h3 {
 }
 
 .button-styling {
-  background: $dusk-lBlue;
+  background: $light-Blue;
   border-color: $dusk-blue;
   color: $dusk-deepBlue;
 }
