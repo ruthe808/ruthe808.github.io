@@ -11,7 +11,7 @@ $purple:#60228a;
 $dark-blue:#03045E;
 $med-Blue:#0077B6;
 $dusk-blue:#4A6988;
-$light-Blue:#5FA8D3;
+$light-Blue:#CAF0F8;
 $dusk-bBlue:#8BA5B6;
 
 $dusk-dOrange:#C16E3F;
@@ -32,7 +32,7 @@ $my-font-size: 25px;
 // Base Document Colors
 $navbar-bg: $med-Blue;
 $body-bg: $light-Blue;
-$body-color: $dark-blue;
+$body-color: black;
 
 /*-- scss:rules --*/
 h1, h2, h3, h4, h5, h6 {
@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-  color: white;
+  color: black;
 }
 
 .custom-subtitle {
