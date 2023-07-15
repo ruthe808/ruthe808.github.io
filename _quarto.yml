@@ -3,10 +3,9 @@ project:
   output-dir: docs
 
 website:
-  #title: Ruth Enriquez
+  title: Ruth Enriquez
   favicon: img/logo.png
   navbar:
-      title: false
       logo: img/logo.png
       right:
       - href: index.qmd
