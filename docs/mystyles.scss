@@ -10,21 +10,8 @@ $teal:#4bc6d1;
 $purple:#60228a;
 $dark-blue:#03045E;
 $med-Blue:#0077B6;
-$dusk-blue:#4A6988;
 $light-Blue:#CAF0F8;
-$dusk-bBlue:#8BA5B6;
-
-$dusk-dOrange:#C16E3F;
 $dusk-orange:#FF8D31;
-$dusk-lOrange:#FBB563;
-$dusk-lBrown:#978978;
-$dusk-brown:#C98F62;
-$dusk-black:#0A0A0A;
-$dusk-gray: #A9ACA5;
-$dusk-dgray: #4D4F4E;
-$dusk-deepBlue: #162636;
-
-
 
 
 $my-font-size: 25px;
@@ -53,8 +40,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .button-styling {
   background: $light-Blue;
-  border-color: $dusk-blue;
-  color: $dusk-deepBlue;
+  border-color: $dark-blue;
+  color: $dusk-orange;
 }
 
 .button-styling:hover {

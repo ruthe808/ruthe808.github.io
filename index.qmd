@@ -16,7 +16,7 @@ about:
 
 ### Aloha!
 
-My name is Ruth Enriquez! I recently graduated from the University of California, Santa Barbara (UCSB) where I earned my [Master's of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science). While at UCSB I had the amazing opportunity to work on a capstone project with a group and the [Global Energy Monitor](https://globalenergymonitor.org/). As a group we evaluated emissions from electric steel production in the US and created a public Tableau dashboard displaying our findings, [2021 US Electric Steel Plant CO2e Tracker](https://public.tableau.com/app/profile/steel.tracker/viz/2021USElectricSteelPlantCo2eTracker/EAFTotalPlantEmissions). I am interested in working on food waste, corporate sustainability, and Scope Emissions.
+My name is Ruth Enriquez! I recently graduated from the University of California, Santa Barbara where I earned my [Master's of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science). While at UCSB I had the amazing opportunity to work on a capstone project with a group and the [Global Energy Monitor](https://globalenergymonitor.org/). As a group we evaluated emissions from electric steel production in the US and created a public Tableau dashboard displaying our findings, [2021 US Electric Steel Plant CO2e Tracker](https://public.tableau.com/app/profile/steel.tracker/viz/2021USElectricSteelPlantCo2eTracker/EAFTotalPlantEmissions). I am interested in working on food waste, corporate sustainability, and Scope Emissions.
 
 ### Education
 
@@ -40,6 +40,6 @@ Bren School for Environmental Science & Management, University of California, Sa
 
 <p class="custom-subtitle2">
 
-University of Hawai’i at Mānoa
+University of Hawai'i at Mānoa
 
 </p>
