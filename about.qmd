@@ -2,10 +2,44 @@
 title: "about"
 ---
 
+::: panel-tabset
+## Full Bio
 I am currently pursing a master's in Environmental Data Science at the Bren School of Environmental Science and Management at the University of California, Santa Barbara.
 
 I was born and raised in Hawai'i where I attended the University of Hawai'i at Mānoa. For my undergraduate degree I studied Management Information Systems and Finance at the Shilder College of Business. I had the pleasure of working in my field of study at Bank of Hawai'i.
 
 I started as a student assistant in the Information Technology (IT) department where I was tasked to do data entry. As I progressed through my career I also participated in Bank of Hawai'i's internship program and Pathway to Professional Excellence management training program.
 
-After 6 years of working in IT Finance I gained a passion for telling a story through data and data visualization. I wanted to pivot my career to pursue my passions in sustainability. I am interested in working on food waste, corporate sustainability, and Scope 1 & 2 Emissions.
+After 6 years of working in IT Finance I gained a passion for telling a story through data and data visualization. I wanted to pivot my career to pursue my passions in sustainability.
+
+## Hobbies
+⚠ Work in progress ⚠
+
+```{r, message= FALSE, warning= FALSE, echo= FALSE}
+#load needed libraries
+library(tidyverse)
+library(here)
+library(sf)
+library(leaflet)
+library(readxl)
+
+#read in cities
+places <- read_excel(here("data", "travel.xlsx"))
+
+#add geometries to cities
+places <- places %>% 
+  st_as_sf(coords = c("lon",
+                      "lat"),
+            crs = 4326)
+
+places %>% 
+  leaflet() %>% 
+  addProviderTiles(providers$Esri.NatGeoWorldMap) %>% 
+  addProviderTiles(providers$Stamen.TonerLabels) %>% 
+  addMarkers(label = places$place)
+
+
+```
+:::
+
+

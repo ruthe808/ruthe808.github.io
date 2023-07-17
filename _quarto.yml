@@ -4,9 +4,9 @@ project:
 
 website:
   title: Ruth Enriquez
-  favicon: img/logo.png
+  favicon: img/susu_logo.png
   navbar:
-      logo: img/logo.png
+      logo: img/susu_logo.png
       right:
       - href: index.qmd
         text: home

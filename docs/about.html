@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./img/logo.png" rel="icon" type="image/png">
+<link href="./img/susu_logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -59,6 +59,17 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script src="site_libs/htmlwidgets-1.6.1/htmlwidgets.js"></script>
+<script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-binding-2.1.1/leaflet.js"></script>
+<script src="site_libs/leaflet-providers-1.9.0/leaflet-providers_1.9.0.js"></script>
+<script src="site_libs/leaflet-providers-plugin-2.1.1/leaflet-providers-plugin.js"></script>
 
 
 <link rel="stylesheet" href="mystyles.scss">
@@ -72,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./img/logo.png" alt="" class="navbar-logo">
+    <img src="./img/susu_logo.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Ruth Enriquez</span>
@@ -132,10 +143,26 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Full Bio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Hobbies</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p>I am currently pursing a master’s in Environmental Data Science at the Bren School of Environmental Science and Management at the University of California, Santa Barbara.</p>
 <p>I was born and raised in Hawai’i where I attended the University of Hawai’i at Mānoa. For my undergraduate degree I studied Management Information Systems and Finance at the Shilder College of Business. I had the pleasure of working in my field of study at Bank of Hawai’i.</p>
 <p>I started as a student assistant in the Information Technology (IT) department where I was tasked to do data entry. As I progressed through my career I also participated in Bank of Hawai’i’s internship program and Pathway to Professional Excellence management training program.</p>
-<p>After 6 years of working in IT Finance I gained a passion for telling a story through data and data visualization. I wanted to pivot my career to pursue my passions in sustainability. I am interested in working on food waste, corporate sustainability, and Scope 1 &amp; 2 Emissions.</p>
+<p>After 6 years of working in IT Finance I gained a passion for telling a story through data and data visualization. I wanted to pivot my career to pursue my passions in sustainability.</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>⚠ Work in progress ⚠</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-5ef13777419bf61f80dc" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-5ef13777419bf61f80dc">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Esri.NatGeoWorldMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addProviderTiles","args":["Stamen.TonerLabels",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addMarkers","args":[[25.032969,35.689487,43.062096,25.1092,1.4491,8.5069,13.7563,37.5519,13.1391,14.5995,37.9838,30.0444,30.3285,31.559,19.7216],[121.565414,139.691711,141.35437,121.8463,103.8185,115.2625,100.5018,126.9918,123.7438,120.9842,23.7275,31.2357,35.4444,35.4732,155.0849],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,["Taipei","Tokyo","Sapporo","Jiufen","Sembawang","Ubud","Bangkik","Seoul","Legazpi","Manila","Athens","Cario","Petra","The Dead Sea","Hilo"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[1.4491,43.062096],"lng":[23.7275,155.0849]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 
 

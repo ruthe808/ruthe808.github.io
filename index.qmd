@@ -1,49 +1,51 @@
 ---
-title: "Ruth Enriquez"
-image: self.jpg
+title: ""
+image: icon.jpg
+format:
+  html:
+    page-layout: full
 about:
   template: trestles
   image-shape: rectangle
-  image-width: 15em
+  image-width: 9cm
   links:
-    - text: LinkedIn
+    - icon: linkedin
+      text: LinkedIn
       href: https://www.linkedin.com/in/ruthe808/
-    - text: GitHub
+    - icon: github
+      text: GitHub
       href: https://github.com/ruthe808
-    - text: Email
+    - icon: envelope-fill
+      text: Email
       href: mailto:ruthe1395@gmail.com
 ---
 
 <h1>Aloha!</h1>
 
-My name is Ruth Enriquez! I recently graduated from the University of California, Santa Barbara where I earned my [Master's of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science). While at UCSB I had the amazing opportunity to work on a capstone project with a group and the [Global Energy Monitor](https://globalenergymonitor.org/). As a group we evaluated emissions from electric steel production in the US and created a public Tableau dashboard displaying our findings, [2021 US Electric Steel Plant CO2e Tracker](https://public.tableau.com/app/profile/steel.tracker/viz/2021USElectricSteelPlantCo2eTracker/EAFTotalPlantEmissions). I am interested in working on food waste, corporate sustainability, and Scope Emissions.
+::: panel-tabset
+## Bio
 
-<h1> Education </h1>
+My name is Ruth Enriquez! I recently earned my [Master's of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) from the University of California, Santa Barbara. I am an aspiring data scientist that hopes to combine my passions for technology, finance, and sustainability. I aim to pursue a career related to the topics of green technology, corporate sustainability, food waste, and/or scope emissions.
 
-<h2> Graduate </h2>
+## Highlighted Experience
 
-<p class="custom-subtitle">
+**Project Manager** \| [Evaluating Carbon Emissions from Electric Arc Furnace Steel Plants in the United States](https://bren.ucsb.edu/projects/evaluating-carbon-emissions-electric-arc-furnace-steel-plants-united-states) (12/22 - 6/23) \| MEDS Capstone
+
+**ITSM Process Manager II, Financial Management** (5/20--7/22) \| Bank of Hawai'i
+
+## Education
+
+<h3>Graduate</h3>
 
 **Master's of Environmental Data Science**, 2023
 
-</p>
+University of California, Santa Barbara \| Bren School for Environmental Science & Management
 
-<p class="custom-subtitle2">
+<h3>Undergraduate</h3>
 
-Bren School for Environmental Science & Management, University of California, Santa Barbara
+**Bachelor of Business Administration \| Finance**, 2017
 
-</p>
+**Bachelor of Business Administration \| Management Information System,** 2017
 
-<h2> Undergraduate </h2>
-
-<p class="custom-subtitle">
-
-**Bachelor of Business Administration - Double Major in Management Information System and Finance**, 2017
-
-</p>
-
-<p class="custom-subtitle2">
-
-University of Hawai'i at Mānoa
-
-</p>
+University of Hawai'i at Mānoa \| Shidler College of Business
+:::
