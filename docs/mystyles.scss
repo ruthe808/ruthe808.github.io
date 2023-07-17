@@ -2,15 +2,18 @@
 
 
 // Fonts
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Unbounded:wght@200&display=swap');
 
 
 //colors
-$teal:#4bc6d1;
-$purple:#60228a;
-$dark-blue:#03045E;
 $med-Blue:#0077B6;
 $light-Blue:#CAF0F8;
+$teal:#0096B4;
+$dark-blue:#03045E;
+
+$seafoam:#4bc6d1;
+$test:#00b4d8;
+$purple:#60228a;
 $dusk-orange:#FF8D31;
 
 
@@ -20,10 +23,11 @@ $my-font-size: 25px;
 $navbar-bg: $med-Blue;
 $body-bg: $light-Blue;
 $body-color: black;
+$link-color: $test;
 
 /*-- scss:rules --*/
 h1, h2, h3, h4, h5, h6 {
-  letter-spacing: 8px;
+  letter-spacing: 1px;
   font-weight: 700;
   color: $teal;
 }

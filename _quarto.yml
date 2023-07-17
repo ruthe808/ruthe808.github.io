@@ -21,7 +21,7 @@ format:
   html:
     theme:
       - mystyles.scss
-    mainfont: Lato
+    mainfont: Open Sans
     css: mystyles.scss
     toc: true
 
