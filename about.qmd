@@ -4,7 +4,6 @@ title: "about"
 
 ::: panel-tabset
 ## Full Bio
-I am currently pursing a master's in Environmental Data Science at the Bren School of Environmental Science and Management at the University of California, Santa Barbara.
 
 I was born and raised in Hawai'i where I attended the University of Hawai'i at Mānoa. For my undergraduate degree I studied Management Information Systems and Finance at the Shilder College of Business. I had the pleasure of working in my field of study at Bank of Hawai'i.
 
@@ -13,7 +12,20 @@ I started as a student assistant in the Information Technology (IT) department w
 After 6 years of working in IT Finance I gained a passion for telling a story through data and data visualization. I wanted to pivot my career to pursue my passions in sustainability.
 
 ## Hobbies
-⚠ Work in progress ⚠
+
+-   Trying new restaurants
+
+-   Checking out local farmers markets
+
+-   Spending time at beach
+
+-   Hanging out with friends
+
+-   Traveling
+
+"It seems that the more places I see and experience, the bigger I realize the world to be. The more I become aware of, the more I realize how relatively little I know of it, how many places I have still to go, how much more there is to learn." - Anthony Bourdain
+
+⚠ work in progress - updating coordinates ⚠
 
 ```{r, message= FALSE, warning= FALSE, echo= FALSE}
 #load needed libraries
@@ -34,12 +46,10 @@ places <- places %>%
 
 places %>% 
   leaflet() %>% 
-  addProviderTiles(providers$Esri.NatGeoWorldMap) %>% 
+  addProviderTiles(providers$Esri.WorldPhysical) %>% 
   addProviderTiles(providers$Stamen.TonerLabels) %>% 
   addMarkers(label = places$place)
 
 
 ```
 :::
-
-

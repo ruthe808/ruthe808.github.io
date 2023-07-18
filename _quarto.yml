@@ -10,13 +10,15 @@ website:
       right:
       - href: index.qmd
         text: home
-      - about.qmd
-      - resume.qmd
+      - href: about.qmd
+        text: about
+      - href: EnriquezRuth_Resume.pdf
+        text: resume
       - href: posts.qmd
-        text: my posts
+        text: blog
   page-footer: 
       left:
-      - "copywrite 2022, Ruth Eniquez"
+      - "copywrite 2023, Ruth Eniquez"
 format:
   html:
     theme:
