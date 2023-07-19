@@ -25,13 +25,13 @@ about:
 ::: panel-tabset
 ## Bio
 
-My name is Ruth Enriquez! I recently earned my [Master's of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) from the University of California, Santa Barbara. I am an aspiring data scientist that hopes to combine my passions for technology, finance, and sustainability. I aim to pursue a career related to the topics of green technology, corporate sustainability, food waste, and/or scope emissions.
+Hi there, my name is Ruth Enriquez! I recently earned my [Master's of Environmental Data Science degree](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) from the University of California, Santa Barbara. I am an aspiring data scientist, and I hope to combine my passions for technology, finance, and sustainability in my next career. I would love career related in green technology, corporate sustainability, food waste, and/or scope emissions.
 
 ## Highlighted Experience
 
-**Project Manager** \| [Evaluating Carbon Emissions from Electric Arc Furnace Steel Plants in the United States](https://bren.ucsb.edu/projects/evaluating-carbon-emissions-electric-arc-furnace-steel-plants-united-states) (12/22 - 6/23) \| MEDS Capstone
+**Project Manager**, [Evaluating Carbon Emissions from Electric Arc Furnace Steel Plants in the United States](https://bren.ucsb.edu/projects/evaluating-carbon-emissions-electric-arc-furnace-steel-plants-united-states) (12/22 - 6/23), MEDS Capstone
 
-**ITSM Process Manager II, Financial Management** (5/20--7/22) \| Bank of Hawai'i
+**ITSM Process Manager II, Financial Management** (5/20 - 7/22), Bank of Hawai'i
 
 ## Education
 
@@ -39,13 +39,13 @@ My name is Ruth Enriquez! I recently earned my [Master's of Environmental Data S
 
 **Master's of Environmental Data Science**, 2023
 
-University of California, Santa Barbara \| Bren School for Environmental Science & Management
+University of California, Santa Barbara, Bren School for Environmental Science & Management
 
 <h3>Undergraduate</h3>
 
-**Bachelor of Business Administration \| Finance**, 2017
+**Bachelor of Business Administration, Finance**, 2017
 
-**Bachelor of Business Administration \| Management Information System,** 2017
+**Bachelor of Business Administration, Management Information System,** 2017
 
-University of Hawai'i at Mānoa \| Shidler College of Business
+University of Hawai'i at Mānoa, Shidler College of Business
 :::

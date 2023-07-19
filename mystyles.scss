@@ -4,53 +4,33 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Unbounded:wght@200&display=swap');
 
+$my-font-size: 25px;
 
-//colors
+
+// Colors
 $med-Blue:#0077B6;
 $light-Blue:#CAF0F8;
 $teal:#0096B4;
 $dark-blue:#03045E;
-
-$seafoam:#4bc6d1;
-$test:#00b4d8;
-$purple:#60228a;
-$dusk-orange:#FF8D31;
-
-
-$my-font-size: 25px;
+$seafoam:#00b4d8;
 
 // Base Document Colors
 $navbar-bg: $med-Blue;
 $body-bg: $light-Blue;
 $body-color: black;
-$link-color: $test;
+$link-color: $seafoam;
 
 /*-- scss:rules --*/
+.title {
+  color: $teal;
+}
+
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   font-weight: 700;
   color: $teal;
 }
 
-.title {
-  color: $teal;
-}
-
-.custom-subtitle {
-  font-size: 22px;
-  font-style: italic;
-  color: $purple;
-}
-
-.button-styling {
-  background: $light-Blue;
-  border-color: $dark-blue;
-  color: $dusk-orange;
-}
-
-.button-styling:hover {
-  background-color: $dusk-orange; 
-}
 
 .navbar-brand img { // see https://github.com/robertmitchellv/robertmitchellv.github.io/blob/main/custom-dark.scss
   max-height: 50px;

@@ -4,28 +4,30 @@ title: "about"
 
 ::: panel-tabset
 ## Full Bio
+⚠ under construction - updating ⚠
 
-I was born and raised in Hawai'i where I attended the University of Hawai'i at Mānoa. For my undergraduate degree I studied Management Information Systems and Finance at the Shilder College of Business. I had the pleasure of working in my field of study at Bank of Hawai'i.
+Before coming to the University of California, Santa Barbara I attended the University of Hawai'i at Mānoa. For my undergraduate degree I studied Management Information Systems and Finance at the Shilder College of Business. I had the pleasure of working in my field of study at Bank of Hawai'i.
 
 I started as a student assistant in the Information Technology (IT) department where I was tasked to do data entry. As I progressed through my career I also participated in Bank of Hawai'i's internship program and Pathway to Professional Excellence management training program.
 
 After 6 years of working in IT Finance I gained a passion for telling a story through data and data visualization. I wanted to pivot my career to pursue my passions in sustainability.
 
+My passion for sustainability comes from being born and raised in Hawaii. Growing up Saturday mornings were spent at the beach with my dad and brothers and Sundays were spent hiking with friends. But growing up in Hawaii is also seeing how limited our natural resources are. When we misuse the land we feel the impacts almost immediately, I want to gain work experience to assist in implementing improved sustainability practices on the islands. Part of living with limited natural resources, to meet our food needs we get our food shipped here, which leads to an increase in the cost of food. With the cost of food being and food insecurity is so prevalent in the islands it was hard for me to learn how much food waste we produce. Thankfully I had the wonderful opportunity to volunteer with Aloha Harvest and see how they used food waste to help our communities.
+
+
 ## Hobbies
 
--   Trying new restaurants
+-   Trying new restaurants with family and friends
 
--   Checking out local farmers markets
+-   Checking out local coffee shops and farmer's markets
 
 -   Spending time at beach
-
--   Hanging out with friends
 
 -   Traveling
 
 "It seems that the more places I see and experience, the bigger I realize the world to be. The more I become aware of, the more I realize how relatively little I know of it, how many places I have still to go, how much more there is to learn." - Anthony Bourdain
 
-⚠ work in progress - updating coordinates ⚠
+Below is a map of where I have been fortunate enough to travel to and make connections for life. I believe that traveling is so important because it teaches us so much about other and ourselves, it helps us zoom out from the daily grind.
 
 ```{r, message= FALSE, warning= FALSE, echo= FALSE}
 #load needed libraries
