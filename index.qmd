@@ -20,20 +20,20 @@ about:
       href: mailto:ruthe1395@gmail.com
 ---
 
-<h1>Aloha!</h1>
+<h1>aloha!</h1>
 
 ::: panel-tabset
-## Bio
+## bio
 
 Hi there, my name is Ruth Enriquez! I recently earned my [Master's of Environmental Data Science degree](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) from the University of California, Santa Barbara. I am an aspiring data scientist, and would love the opportunity to combine my passions for technology, finance, data, and sustainability in my next career.
 
-## Highlighted Experience
+## highlighted Experience
 
 **Project Manager**, [Evaluating Carbon Emissions from Electric Arc Furnace Steel Plants in the United States](https://bren.ucsb.edu/projects/evaluating-carbon-emissions-electric-arc-furnace-steel-plants-united-states) (12/22 - 6/23), MEDS Capstone
 
 **ITSM Process Manager II, Financial Management** (5/20 - 7/22), Bank of Hawai'i
 
-## Education
+## education
 
 <h3>Graduate</h3>
 

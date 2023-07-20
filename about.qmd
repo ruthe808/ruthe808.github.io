@@ -3,20 +3,19 @@ title: "about"
 ---
 
 ::: panel-tabset
-## Full Bio
+## full Bio
 
 ⚠ under construction - updating ⚠
 
-Before pursuing a Master of Environmental Data Science (MEDS) at the University of California, Santa Barbara (UCSB), I worked for Bank of Hawai'i, the largest local bank in the state. My career started with the bank when I was brought on as a student assistant. I was lucky to have managers that believed in my personal and professional development throughout my career, check out my short testimony on the [Bank of Hawaii IT Career page](https://www.boh.com/careers/information-technology). My managers nominated me for the bank’s internship program, which taught me all about the inner workings of a bank, and later their management training program, which enhanced my interpersonal skills to work with vendors, contracts, customers, and fellow coworkers. 
+Before pursuing a Master of Environmental Data Science (MEDS) at the University of California, Santa Barbara (UCSB), I worked for Bank of Hawai'i, the largest local bank in the state. My career started with the bank when I was brought on as a student assistant. I was lucky to have managers that believed in my personal and professional development throughout my career, check out my short testimony on the [Bank of Hawaii IT Career page](https://www.boh.com/careers/information-technology). My managers nominated me for the bank's internship program, which taught me all about the inner workings of a bank, and later their management training program, which enhanced my interpersonal skills to work with vendors, contracts, customers, and fellow coworkers.
 
-My manager and I were talking about me going back to school to pursue a master’s in business administration (MBA). However, covid hit and I felt that I would enjoy a MBA program more if it was in person. As I thought more about going back to school, I thought back on how I was also passionate about sustainability. Then I saw an Instagram post about the MEDS program at UCSB. The program had the technical aspect that I loved working in IT Finance, and it had the feel-good aspect of working on environmental/sustainability issues. So I opted to go back to school, but not for an MBA.
+My manager and I were talking about me going back to school to pursue a master's in business administration (MBA). However, covid hit and I felt that I would enjoy a MBA program more if it was in person. As I thought more about going back to school, I thought back on how I was also passionate about sustainability. Then I saw an Instagram post about the MEDS program at UCSB. The program had the technical aspect that I loved working in IT Finance, and it had the feel-good aspect of working on environmental/sustainability issues. So I opted to go back to school, but not for an MBA.
 
 My passion for sustainability comes from being born and raised in Hawai'i. It was easy to fall in love with the environment when growing up Saturday mornings were spent at the beach with my dad and brothers and Sundays were spent hiking with friends. But part of growing up in Hawai'i is also seeing how limited our natural resources are and how that affects us. In high school I did my senior project on food waste, where I wrote a research paper and had the opportunity to volunteer with [Aloha Harvest](https://alohaharvest.org/past-present-future/). I saw how many people suffered from food insecurity and how an organization helped to feed communities by rescuing food waste.
 
 Ideally, I would love my next career to be one where I can combine my IT finance experience with my passion in sustainability and newly gained data science skills. I hope to work in green technology, corporate sustainability, food waste and/or environmental, social, and corporate governance (ESG), but am open to other opportunities.
 
-
-## Hobbies
+## hobbies
 
 -   Trying new restaurants with family and friends
 
