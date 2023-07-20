@@ -1,11 +1,9 @@
 ---
-title: "about"
+title: "About"
 ---
 
 ::: panel-tabset
-## full Bio
-
-⚠ under construction - updating ⚠
+## Full Bio
 
 Before pursuing a Master of Environmental Data Science (MEDS) at the University of California, Santa Barbara (UCSB), I worked for Bank of Hawai'i, the largest local bank in the state. My career started with the bank when I was brought on as a student assistant. I was lucky to have managers that believed in my personal and professional development throughout my career, check out my short testimony on the [Bank of Hawaii IT Career page](https://www.boh.com/careers/information-technology). My managers nominated me for the bank's internship program, which taught me all about the inner workings of a bank, and later their management training program, which enhanced my interpersonal skills to work with vendors, contracts, customers, and fellow coworkers.
 
@@ -15,7 +13,7 @@ My passion for sustainability comes from being born and raised in Hawai'i. It wa
 
 Ideally, I would love my next career to be one where I can combine my IT finance experience with my passion in sustainability and newly gained data science skills. I hope to work in green technology, corporate sustainability, food waste and/or environmental, social, and corporate governance (ESG), but am open to other opportunities.
 
-## hobbies
+## Hobbies
 
 -   Trying new restaurants with family and friends
 
@@ -27,7 +25,7 @@ Ideally, I would love my next career to be one where I can combine my IT finance
 
 "It seems that the more places I see and experience, the bigger I realize the world to be. The more I become aware of, the more I realize how relatively little I know of it, how many places I have still to go, how much more there is to learn." - Anthony Bourdain
 
-Below is a map of where I have been fortunate enough to travel to and make connections for life. I believe that traveling is so important because it teaches us so much about others and ourselves, it helps us zoom out from the daily grind.
+Below is a map of where I have been fortunate enough to travel to and make connections for life.
 
 ```{r, message= FALSE, warning= FALSE, echo= FALSE}
 #load needed libraries

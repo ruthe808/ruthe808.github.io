@@ -20,20 +20,22 @@ about:
       href: mailto:ruthe1395@gmail.com
 ---
 
-<h1>aloha!</h1>
+<h1>Aloooooha!</h1>
 
 ::: panel-tabset
-## bio
+## Bio
 
-Hi there, my name is Ruth Enriquez! I recently earned my [Master's of Environmental Data Science degree](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) from the University of California, Santa Barbara. I am an aspiring data scientist, and would love the opportunity to combine my passions for technology, finance, data, and sustainability in my next career.
+Hi there, my name is Ruth Enriquez! I recently earned my [Master's of Environmental Data Science degree (MEDS)](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) from the University of California, Santa Barbara. I am an aspiring data scientist, and would love the opportunity to combine my passions for information technology, finance, data, and sustainability in my next career.
 
-## highlighted Experience
+## Highlighted Experience
 
-**Project Manager**, [Evaluating Carbon Emissions from Electric Arc Furnace Steel Plants in the United States](https://bren.ucsb.edu/projects/evaluating-carbon-emissions-electric-arc-furnace-steel-plants-united-states) (12/22 - 6/23), MEDS Capstone
+Master's Capstone Project: [Evaluating Carbon Emissions from Electric Arc Furnace Steel Plants in the United States](https://bren.ucsb.edu/projects/evaluating-carbon-emissions-electric-arc-furnace-steel-plants-united-states)
+Role: Project Manager
+[Analysis of Carbon Emissions of Electrified Steel Plants in the United States](https://github.com/steeltracker/carbon-analysis) | [Tableau Dashboard: 2021 US Electric Steel Plant Co2e Tracker](https://public.tableau.com/app/profile/steel.tracker/viz/2021USElectricSteelPlantCo2eTracker/EAFTotalPlantEmissions)
 
-**ITSM Process Manager II, Financial Management** (5/20 - 7/22), Bank of Hawai'i
 
-## education
+
+## Education
 
 <h3>Graduate</h3>
 

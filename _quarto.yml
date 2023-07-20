@@ -9,13 +9,13 @@ website:
       logo: img/susu_logo.png
       right:
       - href: index.qmd
-        text: home
+        text: Home
       - href: about.qmd
-        text: about
+        text: About
       - href: EnriquezRuth_Resume.pdf
-        text: resume
+        text: Resume
       - href: posts.qmd
-        text: blog
+        text: Portfolio
   page-footer: 
       left:
       - "copywrite 2023, Ruth Eniquez"
