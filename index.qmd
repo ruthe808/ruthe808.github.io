@@ -29,11 +29,13 @@ Hi there, my name is Ruth Enriquez! I recently earned my [Master's of Environmen
 
 ## Highlighted Experience
 
-Master's Capstone Project: [Evaluating Carbon Emissions from Electric Arc Furnace Steel Plants in the United States](https://bren.ucsb.edu/projects/evaluating-carbon-emissions-electric-arc-furnace-steel-plants-united-states)
-Role: Project Manager
-[Analysis of Carbon Emissions of Electrified Steel Plants in the United States](https://github.com/steeltracker/carbon-analysis) | [Tableau Dashboard: 2021 US Electric Steel Plant Co2e Tracker](https://public.tableau.com/app/profile/steel.tracker/viz/2021USElectricSteelPlantCo2eTracker/EAFTotalPlantEmissions)
+**Master's Capstone Project 2023:** [Evaluating Carbon Emissions from Electric Arc Furnace Steel Plants in the United States](https://bren.ucsb.edu/projects/evaluating-carbon-emissions-electric-arc-furnace-steel-plants-united-states)<br>
+**Role:** Project Manager<br>
+**Links:** [Analysis](https://github.com/steeltracker/carbon-analysis) & [Tableau Dashboard](https://public.tableau.com/app/profile/steel.tracker/viz/2021USElectricSteelPlantCo2eTracker/EAFTotalPlantEmissions)
 
+**Description:** Working with Global Energy Monitor our capstone group brought transparency in how much Scope 2 emissions were being produced by Electric Arc Furnace Steel Plants. We used four different data sets to paint us a complete picture of Scope 2 emissions. After standardizing our data using industry standards we created an interactive Tableau dashboard of our findings.
 
+[![](img/tableau_dashboard.png)](https://public.tableau.com/app/profile/steel.tracker/viz/2021USElectricSteelPlantCo2eTracker/EAFTotalPlantEmissions)
 
 ## Education
 
