@@ -26,5 +26,3 @@ format:
     mainfont: Open Sans
     css: mystyles.scss
     toc: true
-
-editor: visual
