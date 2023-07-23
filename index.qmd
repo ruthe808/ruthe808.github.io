@@ -1,6 +1,6 @@
 ---
 title: ""
-image: icon.jpg
+image: img/icon.jpg
 format:
   html:
     page-layout: full

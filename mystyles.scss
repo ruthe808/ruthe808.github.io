@@ -21,13 +21,11 @@ $body-color: black;
 $link-color: $seafoam;
 
 /*-- scss:rules --*/
-.title {
-  color: $teal;
+
+// resize logo (top left corner) see https://github.com/robertmitchellv/robertmitchellv.github.io/blob/main/custom-dark.scss
+.navbar-brand img { 
+  max-height: 50px;
+  width: auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  letter-spacing: 1px;
-  font-weight: 700;
-  color: $teal;
-}
 
