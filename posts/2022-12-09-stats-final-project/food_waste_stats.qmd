@@ -1,6 +1,6 @@
 ---
-title: "Food Waste Analysis"
-description: "Researching if there is a relationship between the amount of food waste produced and household income"
+title: "Stastistical Analysis: Food Waste and Average Household Income in California"
+description: "Researching if there is a relationship between the amount of food waste produced and the average household income in California"
 author: 
   - name: Ruth Enriquez
     url: {}
