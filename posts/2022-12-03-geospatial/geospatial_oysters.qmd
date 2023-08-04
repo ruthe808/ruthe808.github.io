@@ -1,0 +1,27 @@
+---
+title: "Mapping Out Optimal EEZs for Oyster Aquaculutre"
+description: "Identifying which Exclusive Economic Zones (EEZ) on the West Coast of the US are best suited to developeing marine aquaculture for several species of oysters"
+author: 
+  - name: Ruth Enriquez
+    url: {}
+date: 2022-12-3
+categories: [MEDS, R, Geospatial, California]
+draft: false
+format:
+  html:
+    code-fold: true
+    code-summary: "Show the code"
+base_url: https://ruthe808.github.io
+---
+
+## Background
+
+## Data
+
+## Getting Started
+
+## Getting into the Data
+
+## Visualizing our Results
+
+## Optimal EEZs for Dungness Crab
