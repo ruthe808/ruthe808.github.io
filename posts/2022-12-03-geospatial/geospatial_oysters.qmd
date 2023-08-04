@@ -6,6 +6,7 @@ author:
     url: {}
 date: 2022-12-3
 categories: [MEDS, R, Geospatial, California]
+image: optimal_EEZs.png
 draft: false
 format:
   html:
@@ -68,7 +69,6 @@ library(stringr)
 
 # setting file path
 setwd(here())
-
 ```
 
 -   read in the shapefile for the West Coast EEZ (`wc_regions_clean.shp`)
