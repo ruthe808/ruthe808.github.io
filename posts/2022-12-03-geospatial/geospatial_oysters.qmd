@@ -1,6 +1,6 @@
 ---
 title: "Mapping Out Optimal EEZs for Oyster Aquaculutre"
-description: "Identifying which Exclusive Economic Zones (EEZ) on the West Coast of the US are best suited to developeing marine aquaculture for several species of oysters"
+description: "Identifying which Exclusive Economic Zones (EEZ) on the West Coast of the US are best suited to developing marine aquaculture for several species of oysters"
 author: 
   - name: Ruth Enriquez
     url: {}
@@ -16,12 +16,417 @@ base_url: https://ruthe808.github.io
 
 ## Background
 
+This work comes from a Geospatial Analyst & Remote Sensing homework assignment. We learned that aquaculture in marine environments holds the promise of being a significant contributor to the world's food resources, offering a more sustainable protein alternative compared to traditional land-based meat farming.
+
+For this work, I will be identifying which Exclusive Economic Zones (EEZ) on the West Coast of the US are best suited to developing marine aquaculture for several species of oysters.
+
+Based on previous research, we know that oysters needs the following conditions for optimal growth:\
+
+-   sea surface temperature: 11-30°C
+
+-   depth: 0-70 meters below sea level
+
+**Objectives:**
+
+-   combining vector/raster data
+
+-   resampling raster data
+
+-   masking raster data
+
+-   map algebra
+
 ## Data
+
+### **Sea Surface Temperature**
+
+I will use average annual sea surface temperature (SST) from the years 2008 to 2012 to characterize the average sea surface temperature within the region. The data we are working with was originally generated from [NOAA's 5km Daily Global Satellite Sea Surface Temperature Anomaly v3.1](https://coralreefwatch.noaa.gov/product/5km/index_5km_ssta.php).
+
+### **Bathymetry**
+
+To characterize the depth of the ocean I will use the [General Bathymetric Chart of the Oceans (GEBCO)](https://www.gebco.net/data_and_products/gridded_bathymetry_data/#area).^[3](#fn3)^
+
+### **Exclusive Economic Zones**
+
+I will be designating maritime boundaries using Exclusive Economic Zones off of the west coast of US from [Marineregions.org](https://www.marineregions.org/eez.php).
 
 ## Getting Started
 
+I will begin by loading all of the necessary packages to analyze the data. Then I will load and validate the data to ensure that it is all on the same coordinate reference system.
+
+```{r,warning=FALSE, message=FALSE, results='hide'}
+# loading in packages
+library(tidyverse)
+library(dplyr)
+library(here)
+library(janitor)
+library(tmap)
+library(tmaptools)
+library(terra)
+library(sf)
+library(stringr)
+
+# setting file path
+setwd(here())
+
+```
+
+-   read in the shapefile for the West Coast EEZ (`wc_regions_clean.shp`)
+
+```{r,warning=FALSE, message=FALSE, results='hide'}
+    #Reading in the West Coast shapefile
+    wcEEZ <- st_read(here("posts"
+                          , "2022-12-03-geospatial"
+                          , "data"
+                          , "wc_regions_clean.shp"))
+```
+
+-   read in SST rasters
+
+    -   `average_annual_sst_2008.tif`\
+    -   `average_annual_sst_2009.tif`\
+    -   `average_annual_sst_2010.tif`\
+    -   `average_annual_sst_2011.tif`\
+    -   `average_annual_sst_2012.tif`
+
+-   combine SST rasters into a raster stack
+
+    ```{r,warning=FALSE, message=FALSE, results='hide'}
+    #SST rasters -> raster stack
+    ##using list file path from lab
+    filelist <- list.files(here("posts"
+                                , "2022-12-03-geospatial"
+                                , "data"
+                                , "sst"), full.names = TRUE)
+
+    #reading in and storing files as a raster stack
+    orgStackSST <- rast(filelist)
+    ```
+
+-   read in bathymetry raster (`depth.tif`)
+
+    ```{r,warning=FALSE, message=FALSE, results='hide'}
+    #Read in bathymetry raster tif file
+    oceanDepth <- rast(here("posts"
+                            , "2022-12-03-geospatial"
+                            , "data"
+                            , "depth.tif"))
+    ```
+
+-   check that data are in the same coordinate reference system
+
+    ```{r,warning=FALSE, message=FALSE, results='hide'}
+    #use st_crs to check the crs of each raster
+    st_crs(wcEEZ) #WGS 84; EPSG 4326
+    st_crs(orgStackSST) #WGS 84; EPSG 9001/9122
+    st_crs(oceanDepth) #WGS 84, EPSG 4326
+    ```
+
+    -   reproject any data not in the same projection
+
+```{r include=TRUE, warning=FALSE, messages=FALSE, results='hide'}
+#reproject stackSST data to be the same as wcEEZ and oceanDepth
+stackSST <- project(orgStackSST, wcEEZ)
+
+#check that crs was successfully changed
+st_crs(stackSST)
+```
+
 ## Getting into the Data
+
+Next, I need to process the SST and depth data so that they can be combined. In this case the SST and depth data have slightly different resolutions, extents, and positions. I don't want to change the underlying depth data, so I will need to resample to match the SST data using the nearest neighbor approach.
+
+-   find the mean SST from 2008-2012
+
+    ```{r}
+    #find the mean of stackSST
+    stackSSTmean <- mean(stackSST)
+
+    #check that it calculated
+    print(stackSSTmean)
+    ```
+
+-   convert SST data from Kelvin to Celsius
+
+    ```{r}
+    #converting stackSSTmean data from Kelvin to Celsius
+    SSTcelsius <- stackSSTmean - 273.15
+    ```
+
+-   crop depth raster to match the extent of the SST raster
+
+    ```{r}
+    #cropping the oceanDepth raster to match SST raster
+    oceanDepthCrop <- crop(oceanDepth, SSTcelsius)
+    ```
+
+-   note: the resolutions of the SST and depth data do not match\
+
+    -   resample the depth data to match the resolution of the SST data using the nearest neighbor approach\
+
+    ```{r}
+    oceanDepthRe <- resample(oceanDepthCrop, SSTcelsius, method = 'near')
+    ```
+
+-   check that the depth and SST match in resolution, extent, and coordinate reference system\
+
+```{r include=TRUE}
+#checking that resolution, extent, and crs match
+print(SSTcelsius)
+print(oceanDepthRe)
+
+#check that the resolution is the same
+#resolution written: x, y
+  #stackSSTmeanC
+    #resolution  : 0.04165905, 0.04165905
+  #oceanDepthRe
+    #resolution  : 0.04165905, 0.04165905
+
+#check that the extent is the same
+#extent written in: xmin, xmax, ymin, ymax
+  #stackSSTmeanC
+    #extent: -131.9848, -114.9879, 29.99208, 49.98842
+  #oceanDepthRe
+    #extent: -131.9848, -114.9879, 29.99208, 49.98842
+
+#check the crs is the same
+  #stackSSTmeanC
+    #coord. ref. : lon/lat WGS 84 (EPSG:4326)
+  #oceanDepthRe
+    #coord. ref. : lon/lat WGS 84 (EPSG:4326) 
+```
+
+```{r}
+#stacking the rasters to check if the dimensions are really the same
+#if they are NOT the same there will be an error/warning
+depthSST <- c(SSTcelsius, oceanDepthRe)
+```
+
+#### Identifying Suitable Locations
+
+In order to find suitable locations for marine aquaculture, I will need to find locations that are suitable in terms of both SST and depth.
+
+-   reclassify SST and depth data into locations that are suitable for oyster\
+
+    ```{r}
+    #identify suitable conditions for oysters
+    #(taken from data given)...
+
+    #sea surface temperature: 11-30°C
+    #depth: 0-70 meters below sea level
+
+    #reclassifying temp
+    temp <- c(-Inf, 11, NA,
+            11, 30, 1,
+            30, Inf, NA)
+
+    tempMatrix <- matrix(temp, ncol = 3, byrow = TRUE)
+
+    SSTreclass <- classify(SSTcelsius, rcl = tempMatrix, include.lowest = TRUE)
+
+    #reclassifying depth
+    depth <- c(-Inf, -70, NA,
+               -70, 0, 1,
+               0, Inf, NA)
+
+    depthMatrix <- matrix(depth, ncol = 3, byrow = TRUE)
+
+    depthReclass <- classify(oceanDepthRe, rcl = depthMatrix, include.lowest = TRUE)
+    ```
+
+-   find locations that satisfy both SST and depth conditions\
+
+```{r include=TRUE}
+#creating a function to combine the reclass
+funC <- function(x, y) {
+  return(x*y)
+  }
+
+#finding locations that satisfy both SST and depth conditions
+suitableLocations <-lapp(c(SSTreclass,depthReclass), fun = funC)
+plot(suitableLocations, col = "blue")
+```
+
+#### Determining the Most Suitable EEZ
+
+I want to determine the total suitable area within each EEZ in order to rank zones by priority. To do so, I need to find the total area of suitable locations within each EEZ.
+
+-   select suitable cells within West Coast EEZs\
+-   find area of grid cells\
+-   find the total suitable area within each EEZ\
+-   find the percentage of each zone that is suitable\
+
+```{r}
+#setting up cell size
+cellSize <- cellSize(suitableLocations, mask = TRUE, unit = "km", transform = TRUE)
+
+#changing EEZ file to raster
+wcRaster <- rasterize(wcEEZ, suitableLocations, field ="rgn")
+
+#creating a mask, testing which variable combos work: wcRaster, suitableLocations, EEZcropSuitable
+wcMask <- mask(wcRaster, suitableLocations, inverse = FALSE, updatevalue = NA)
+
+#using zonal example from week 5 lab... applying zonal operations to help us find zones
+suitableArea <- zonal(cellSize, wcMask, sum, na.rm = TRUE)
+
+#joining together data
+suitableEEZ <- merge(wcEEZ, suitableArea, by = 'rgn') |> 
+  mutate(suitable_area = area, percentage = (suitable_area/area_km2 * 100), .before = geometry)
+```
 
 ## Visualizing our Results
 
+Now that I have results, I need to present them!
+
+Time to create the following maps:
+
+-   total suitable area by region\
+-   percent suitable area by region\
+
+```{r include=TRUE}
+tmap_mode("view")
+
+#Creating a map for total suitable area by region
+
+tm_basemap("Esri.WorldStreetMap")+
+tm_shape(suitableEEZ) +
+  tm_polygons(col = 'area',
+              palette = 'BrBG',
+              alpha = 0.5,
+              border.col = 'black') +
+  tm_layout( main.title = "Suitable Areas for Oysters by Region: Total",
+             main.title.position = 'center',
+             main.title.size = 0.5,
+             legend.outside = TRUE) +
+  tm_scale_bar(position = c("left", "bottom"))+
+  tm_text("rgn", size = 0.54)
+```
+
+```{r}
+#Creating a map for percent suitable area by region
+tm_basemap("Esri.WorldStreetMap")+
+tm_shape(suitableEEZ) +
+  tm_polygons(col = 'percentage',
+              palette = 'BrBG',
+              alpha = 0.5,
+              border.col = 'black') +
+  tm_layout( main.title = "Suitable Areas for Oysters by Region: Percentage",
+             main.title.position = 'center',
+             main.title.size = 0.5,
+             legend.outside = TRUE)+
+  tm_scale_bar(position = c("left", 'bottom')) +
+  tm_text("rgn", size = 0.54)
+```
+
 ## Optimal EEZs for Dungness Crab
+
+Now that I've worked through the solution for one group of species, I want to update my workflow to work for other species I am interested in. To do this I will create a function that would allow anyone to reproduce my results for other species. My function will be able to do the following:\
+
+-   accept temperature and depth ranges and species name as inputs\
+-   create maps of total suitable area and percent suitable area per EEZ with the species name in the title\
+
+I am interested at looking for optimal EEZs for Dungness Crab. To get information on the depth and temperature requirements for Dungess Crab I will go to [SeaLifeBase](https://www.sealifebase.ca/search.php).
+
+-   Creating a function for reproducibility
+
+```{r}
+# Creating the function
+suitableMapFunction <- function(seaSurfaceTempLow, seaSurfaceTempHigh, oceanDepthLow, oceanDepthHigh, speciesName ){
+
+wcEEZ <- st_read(here("posts"
+                      , "2022-12-03-geospatial"
+                      , "data"
+                      , "wc_regions_clean.shp"))
+
+filelist <- list.files(here("posts"
+                            , "2022-12-03-geospatial"
+                            , "data"
+                            , "sst"), full.names = TRUE)
+
+orgStackSST <- rast(filelist)
+
+oceanDepth <- rast(here("posts"
+                        , "2022-12-03-geospatial"
+                        , "data"
+                        , "depth.tif"))
+
+stackSST <- project(orgStackSST, y ="epsg:4326")
+
+stackSSTmean <- mean(stackSST)
+
+SSTcelsius <- stackSSTmean - 273.15
+
+oceanDepthCrop <- crop(oceanDepth, SSTcelsius)
+
+oceanDepthRe <- resample(oceanDepthCrop, SSTcelsius, method = 'near')
+
+temp <- c(-Inf, seaSurfaceTempLow, NA,
+        seaSurfaceTempLow, seaSurfaceTempHigh, 1,
+        seaSurfaceTempHigh, Inf, NA)
+tempMatrix <- matrix(temp, ncol = 3, byrow = TRUE)
+SSTreclass <- classify(SSTcelsius, rcl = tempMatrix, include.lowest = TRUE)
+
+
+depth <- c(-Inf, oceanDepthLow, NA,
+           oceanDepthLow, oceanDepthHigh, 1,
+           oceanDepthHigh, Inf, NA)
+depthMatrix <- matrix(depth, ncol = 3, byrow = TRUE)
+depthReclass <- classify(oceanDepthRe, rcl = depthMatrix, include.lowest = TRUE)
+
+funC <- function(x, y) {
+  return(x*y)
+  }
+suitableLocations <-lapp(c(SSTreclass,depthReclass), fun = funC)
+
+cellSize <- cellSize(suitableLocations, mask = TRUE, unit = "km", transform = TRUE)
+
+wcRaster <- rasterize(wcEEZ, suitableLocations, field ="rgn")
+
+wcMask <- mask(wcRaster, suitableLocations, inverse = FALSE, updatevalue = NA)
+
+suitableArea <- zonal(cellSize, wcMask, sum, na.rm = TRUE)
+
+suitableEEZ <- merge(wcEEZ, suitableArea, by = 'rgn') |> 
+  mutate(suitable_area = area, percentage = (suitable_area/area_km2 * 100), .before = geometry)
+
+suitableAreaTotalMap <- tm_shape(suitableEEZ) +
+  tm_polygons(col = 'area',
+              palette = 'BrBG',
+              alpha = 0.5,
+              border.col = 'black') +
+  tm_layout(main.title = paste("Suitable Areas for", speciesName, "by Region: Total"),
+             main.title.position = 'center',
+             title.size = 0.5,
+             legend.outside = TRUE) +
+  tm_scale_bar(position = c("left", "bottom"))+
+  tm_text("rgn", size = 0.54)
+
+suitableAreaPercentMap <- tm_shape(suitableEEZ) +
+  tm_polygons(col = 'percentage',
+              palette = 'BrBG',
+              alpha = 0.5,
+              border.col = 'black') +
+  tm_layout(main.title = paste("Suitable Areas for", speciesName, " by Region: Percentage"),
+            main.title.position = 'center',
+            title.size = 0.03,
+            legend.outside = TRUE)+
+  tm_scale_bar(position = c("left", 'bottom')) +
+  tm_text("rgn", size = 0.54)
+
+tmap_arrange(suitableAreaTotalMap, suitableAreaPercentMap, widths = c(.25, .75))
+}
+```
+
+-   Testing the function that I made
+
+```{r}
+# Testing the function
+testCrab <- suitableMapFunction(3, 19, 0, 360, "Dungeness Crab")
+```
+
+-   Time to check out if my function worked - it did! Woot woot! :)
+
+```{r}
+# Seeing the results
+testCrab
+```
